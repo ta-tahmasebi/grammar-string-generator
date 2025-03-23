@@ -1,4 +1,4 @@
-# Grammar String Generator
+# Grammar String Generator ![CFG Generator](https://img.shields.io/badge/Grammar-Generator-blueviolet?style=for-the-badge)
 
 ## Overview
 This project provides a Python-based **Grammar String Generator** that expands grammar rules to generate terminal strings. It uses a **breadth-first search (BFS) approach** to iteratively apply grammar rules and produce valid strings.
@@ -9,6 +9,10 @@ This project provides a Python-based **Grammar String Generator** that expands g
 - Uses **BFS** to systematically explore string generations
 - **Handles infinite loops** with a step limit
 - Includes **example grammars** for testing
+
+Note: the current implementation only supports grammar rules where variables and terminals are single characters. However, we have plans to extend this functionality to support multi-character variables and terminals in future updates.
+
+
 
 ## Installation
 Install the required dependency before running the script:
